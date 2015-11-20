@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|front|admin\.seeyouyima\.com_cron|robots\.txt|xmpush)
+RewriteRule ^(.*)$ index.php/$1 [C]

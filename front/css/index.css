@@ -1,0 +1,115 @@
+body{ width:100%; height:100%; font:12px 'Microsoft Yahei','Hei',Tahoma,'SimHei',sans-serif}
+#top{ width:100%; height:50px; position:fixed; z-index:99999999; top:0px;}
+#desc{ width:100%; margin-top:1px; overflow:hidden;}
+#desc #left{ width:150px; position:fixed; top:51px; left:0; bottom:0; overflow-x:hidden; overflow-y:auto;}
+#desc #left #bars{ width:140px; height:100%; background:#f8f8f8; border:1px solid #e7e7e7;}
+#desc #right{ margin-left:120px; margin-top:60px; padding:0 30px;}
+#desc #right .flexigrid{ line-height:normal;}
+#desc #right #tab_frame{ width:100%; border:none; min-height:600px;}
+#bars #accordion{ width:100%;}
+#top .navbar-header{ width:140px;}
+#top .navbar-brand{ font-size:14px;}
+#left .nav-list li{ border-bottom:1px solid #e7e7e7;}
+#left .nav-list li a span{ margin-right:10px;}
+
+#table_bottom{height:30px; line-height:30px;margin-bottom:20px; float:right ;  margin-right: 10px;}
+#table_bottom .page_count{ float:right;  height:30px; margin-right:20px}
+#table_bottom .page_tp{ float:right;  height:30px;margin-right:20px}
+
+#table_bottom .page_tp a{ margin-left:3px; margin-right:3px;}
+#table_bottom .page_jump{ float:right; width:150px; height:30px;}
+#table_bottom .page_jump input{ width:50px; height:30px; display:inline; text-align:center;}
+table th{ background:#eee;}
+.header{ margin-top:10px; margin-bottom:10px;}
+.search_table td{ padding:5px 5px;}
+.search_table .time{ width:122px;}
+
+#desc #right .sort {background: url(/front/img/sort/icon_sort.gif) no-repeat right 3px; padding-right: 20px;}
+#desc #right .sort_asc {background: url(/front/img/sort/icon_sort_asc.gif) no-repeat right 3px;padding-right: 20px;}
+#desc #right .sort_desc {background: url(/front/img/sort/icon_sort_desc.gif) no-repeat right 3px; padding-right: 20px;}
+
+.nav-left-list > li > a:hover{
+	color:#fd7390;
+}
+
+.navbar-nav-top > li > a{
+	font-size:14px;
+	padding: 0 20px;
+	line-height:50px;
+    display: inline-block;
+}
+.page-header-title{
+	color:#0099cc;
+	padding-bottom:15px;
+}
+.right-btn{
+	border:1px #ff5375 solid;
+	border-radius:4px;
+	line-height:28px;
+	padding: 0 20px;
+	background:#FFF;
+	font-size:14px;
+	color:#fd7390;
+}
+.btn-sumbit{
+	border:1px #ccc solid;
+	border-radius:4px;
+	line-height:34px;
+	padding: 0 15px;
+	background:#FFF;
+	font-size:14px;
+}
+#sort_box > a , #sort_box > a:hover {
+	color:#0099cc;
+}
+#table td{
+	text-align:left;
+}
+
+
+
+.edit-btn{
+    font-size: 14px;
+    line-height: 24px;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+}
+.edit-btn:hover{
+	text-decoration:none !important;
+}
+#table a, #table a:hover{
+	color:#0099cc;
+	font-size:13px;	
+}
+ #table th a , #table th a:hover {
+	 text-align:center !important;
+	 font-size:12px !important
+ }
+.aui_main tr{
+	line-height:30px;
+}
+#type , #reason_id{
+	float:left
+}
+
+#redirect_topic_url_link , #redirect_topic_url_txt{
+	width:150px;
+	height:26px;
+	line-height:26px;
+}
+#redirect_topic_id_input{
+	margin-left:80px
+}
+
+#img_button ,.imgfile-img{
+	line-height:26px !important;
+	padding:0 12px !important;	
+}
+
+#delete_img , #delete ,#delete_1, #delete_2,.delete-img {
+	line-height:28px !important;	
+}
+.nav-left-list a{color:#000 !important}
+.nav-left-list a:hover{color:#ff5375 !important}
+.btn-more{padding:0; line-height:20px; background:none; color:#0099cc; font-size:13px; margin-top:-2px;}
